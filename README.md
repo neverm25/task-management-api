@@ -53,14 +53,20 @@ A robust task management API built with Node.js, Express, and TypeScript.
 npm install
 ```
 
-2. Set up the database:
+2. Set up environment variables:
+
+```bash
+cp .env.example .env
+```
+
+3. Set up the database:
 
 ```bash
 npm run prisma:generate
 npm run prisma:push
 ```
 
-3. Start the development server:
+4. Start the development server:
 
 ```bash
 npm run dev
